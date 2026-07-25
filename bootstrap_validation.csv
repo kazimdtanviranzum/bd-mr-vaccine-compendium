@@ -1,0 +1,4 @@
+source,amplitude,lag1_autocorr,monthshare_mad_vs_hist,energy_dist_vs_hist
+Historical,0.0159,0.53,0.0,0.0
+Block bootstrap,0.0213,0.392,0.00021,0.00131
+i.i.d. noise bootstrap,0.0211,0.258,9e-05,0.00105

@@ -1,0 +1,18 @@
+# Bangladesh MR resilient seasonal supply chain compendium
+# Free-solver based: no CPLEX licence required (Pyomo + HiGHS).
+# Tested with Python 3.12.
+
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+xgboost>=2.0
+pyomo>=6.7
+highspy>=1.7            # HiGHS solver bindings used via pyomo.contrib.appsi
+shap>=0.45
+matplotlib>=3.7
+
+# The conditional GAN (gan_scenarios.py) is implemented in pure NumPy, so no
+# deep-learning framework is required. To swap in a torch implementation,
+# install torch>=2.2 and replace ConditionalGAN accordingly.
